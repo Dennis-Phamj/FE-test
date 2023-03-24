@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: 'CiscoFontBold';
+    src: url(./font/CiscoSansBold.otf);
+} */
+
+html, body {
+    height: 100%;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+#application-root {
+    width: 100vw;
+    height: 100%;
+}

@@ -1,0 +1,15 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage", // config how babel work with polyfills
+                "corejs": "3.29.1" // reference for polyfills
+            }
+        ],
+        ["@babel/preset-react"],
+        ["@babel/preset-flow"],
+        ["@babel/preset-typescript"]
+    ],
+    "plugins": []
+}
