@@ -4,8 +4,7 @@ This application using ReactJS (`Recommended NodeJS version: v16.20.2 (LTS)`)
 
 ## Lastest Stable Branches
 
-`main`: prod branch \
-`dennis`: test branch
+`dennis`: main branch
 
 ## Available Scripts
 
