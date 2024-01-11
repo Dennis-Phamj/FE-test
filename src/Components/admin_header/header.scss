@@ -1,0 +1,16 @@
+ul {
+    li {
+        display: inline;
+    }
+}
+
+button {
+    height: 100%;
+    color: white;
+    background-color: #f04e35;
+    padding: 8px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
