@@ -4,6 +4,7 @@ import pageDataContext from "../../context/pageData";
 
 const Consumer_page = () => {
   const { pageData } = useContext(pageDataContext);
+  console.log(pageData);
   const onClickHandler = (e) => {
     const data = pageData.filter((data) => data.id == e.target.id);
     alert(data[0].props.alert);
@@ -16,7 +17,7 @@ const Consumer_page = () => {
       {pageData.map((data, index) => {
         return data.type === "Paragraph" ? (
           <p key={index} id={data.id}>
-            data.props.text
+            {data.props.text}
           </p>
         ) : data.type === "Button" ? (
           <button
@@ -25,7 +26,7 @@ const Consumer_page = () => {
             key={index}
             id={index}
           >
-            data.props.text
+            {data.props.text}
           </button>
         ) : (
           <img
